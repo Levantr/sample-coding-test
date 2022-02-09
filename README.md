@@ -33,6 +33,7 @@ For this test, you'll be asked to create a VERY simple version of this page.
 7) Mobile responsiveness will be checked. It should default to one card at a time. 
 
 When finished please create a Pull Request from a seperate branch, named "Yourname-levantr-coding-test". 
+
 Please ask if there are any questions! 
 
 Bonus Points: 

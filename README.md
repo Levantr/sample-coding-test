@@ -32,7 +32,8 @@ For this test, you'll be asked to create a VERY simple version of this page.
 6) Idea cards should populate according to how they are added, newest added comes first. 
 7) Mobile responsiveness will be checked. It should default to one card at a time. 
 
-Please ask if there are any questions!
+When finished please create a Pull Request from a seperate branch, named "Yourname-levantr-coding-test". 
+Please ask if there are any questions! 
 
 Bonus Points: 
 1) Add a top bar that sorts by A-Z title and New-Old. 

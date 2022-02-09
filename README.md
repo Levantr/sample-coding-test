@@ -29,8 +29,8 @@ For this test, you'll be asked to create a VERY simple version of this page.
 3) The form should take ONLY title and description and add them to the card. Don't worry about the other fields (price, duration, etc).
 4) Use the pre-setup redux store, check to make sure this is responsive, and project organization will be looked at. 
 5) Do not worry about the header, footer, or navigation bars; only design the plus button card and the idea cards.   
-6) Idea cards should populate accroding to how they are added, newest added comes first. 
-7) Mobile responsiveness will be checked. It shoudl default to one card at a time. 
+6) Idea cards should populate according to how they are added, newest added comes first. 
+7) Mobile responsiveness will be checked. It should default to one card at a time. 
 
 Please ask if there are any questions!
 

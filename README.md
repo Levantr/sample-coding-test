@@ -1,44 +1,39 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
-## Available Scripts
+# Welcome to Levantr
 
-In the project directory, you can run:
+For this assessment, we will be looking for a sample of what you can do while working for us! This test is to measure your style of coding, how you approach problems, project organization, and overall experience. 
+
+Feel free to use code comments to explain your decisions!
+
+Where to start?
+
+### `git clone https://github.com/Levantr/sample-coding-test.git` to clone the project to your local computer.
+
+### `yarn install` to install the project.
+
+### This project is using SCSS / Antd / React / Redux to make things easier. 
 
 ### `yarn start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `yarn test`
+### Below is an image of your assignment (Our actual application):
+![image](https://user-images.githubusercontent.com/26758576/153116152-f35a78b5-90ce-45a9-a4e5-43fc8d89065e.png)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+For this test, you'll be asked to create a VERY simple version of this page. 
 
-### `yarn build`
+1) Create a plus button that adds cards to the page. The plus button should be the same size as the cards (as shown in the screenshot).
+2) A VERY simple form that adds card; Each card can be pre-populated with the fake sample image called "sample-card-image" in the project images folder. 
+3) The form should take ONLY title and description and add them to the card. Don't worry about the other fields (price, duration, etc).
+4) Use the pre-setup redux store, check to make sure this is responsive, and project organization will be looked at. 
+5) Do not worry about the header, footer, or navigation bars; only design the plus button card and the idea cards.   
+6) Idea cards should populate according to how they are added, newest added comes first. 
+7) Mobile responsiveness will be checked. It should default to one card at a time. 
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Please ask if there are any questions!
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Bonus Points: 
+1) Add a top bar that sorts by A-Z title and New-Old. 
+2) Any addition organization strategies or tips!

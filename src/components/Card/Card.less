@@ -1,0 +1,50 @@
+.Card {
+  width: 224px;
+  height: 334px;
+
+  &.ant-card {
+    border-radius: 4px;
+  }
+
+  &__button {
+    &:extend(.Card);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    &.ant-card {
+      background-color: #e6e8ed;
+    }
+
+    &__icon {
+      margin-bottom: 5px;
+      padding: 16px;
+      border: 1px solid #d9d9d9;
+      border-radius: 14px;
+      background-color: #fff;
+      font-size: 28px;
+      svg {
+        color: #08ac8c;
+      }
+    }
+
+    &__label {
+      font-size: medium;
+      font-weight: 500;
+    }
+  }
+
+  @media (max-width: 576px) {
+    width: 100%;
+  }
+
+  .ant-card-cover {
+    padding: 9px 9px 20px;
+  }
+
+  .ant-card-meta-title,
+  .ant-card-meta-description,
+  &__button__label {
+    color: @primary-color;
+  }
+}

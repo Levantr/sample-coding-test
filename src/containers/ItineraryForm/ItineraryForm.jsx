@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import { Button, Drawer, Form, Input, Typography } from "antd";
+import "./ItineraryForm.less";
 const { Title } = Typography;
 
 function ItineraryForm({ form, submit, closeForm, visible }) {
@@ -12,8 +13,11 @@ function ItineraryForm({ form, submit, closeForm, visible }) {
       onClose={closeForm}
       visible={visible}
       afterVisibleChange={shouldFocus}
+      className="ItineraryForm"
     >
-      <Title level={2}>Add Item</Title>
+      <Title level={2} className="ItineraryForm__title">
+        Add Item
+      </Title>
       <Form
         form={form}
         name="itinerary"

@@ -1,6 +1,6 @@
 import { Card as AntCard } from "antd";
 import sampleImg from "../../images/sample-card-image.jpg";
-import "./Card.scss";
+import "./Card.less";
 const { Meta } = AntCard;
 
 function Card({ title, description, children, cover, onClick }) {

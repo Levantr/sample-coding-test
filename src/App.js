@@ -9,7 +9,7 @@ import SortBar from "./components/SortBar";
 import ItineraryForm from "./containers/ItineraryForm";
 import sampleImage from "./images/sample-card-image.jpg";
 import "antd/dist/antd.min.css";
-import "./App.scss";
+import "./App.less";
 import {
   addItem,
   selectItinerary,
@@ -66,8 +66,8 @@ function App() {
         )}
         {status !== "loading" && (
           <Card onClick={openForm}>
-            <div>Add Item</div>
-            <PlusOutlined />
+            <PlusOutlined className="Card__button__icon" />
+            <div className="Card__button__label">Add</div>
           </Card>
         )}
         {items &&

@@ -3,12 +3,13 @@ import {
   ClockCircleOutlined,
   SortAscendingOutlined,
 } from "@ant-design/icons/lib/icons";
+import "./SortBar.less";
 
 function SortBar({ title, sortBy, onChange }) {
   return (
     <PageHeader
       title={title}
-      className="PageHeader"
+      className="SortBar"
       extra={[
         <span key="sort-lable">Sort By: </span>,
         <Radio.Group key="sort-ctrls" value={sortBy} onChange={onChange}>

@@ -1,2 +1,19 @@
 .App {
+  min-height: 100vh;
+  .Content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    padding: 0 40px 40px;
+    @media (max-width: 576px) {
+      padding: 10px;
+    }
+  }
+  .PageHeader {
+    padding: 24px 50px;
+    @media (max-width: 576px) {
+      padding: 10px 20px 0;
+    }
+  }
 }

@@ -1,8 +1,8 @@
-import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import { configureStore } from "@reduxjs/toolkit";
+import itineraryReducer from "../reducers/itineraryReducer";
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    itinerary: itineraryReducer,
   },
 });
